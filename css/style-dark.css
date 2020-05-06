@@ -227,8 +227,8 @@ h2 {
   font: bold 1.2em "Noto Sans SC", sans-serif;
 }
 a {
+  color: #c0c5ce;
   text-decoration: none;
-  color: #d14e4e;
 }
 a:hover {
   color: #ff4848;
@@ -237,11 +237,11 @@ blockquote {
   margin: 0.3em 0;
   padding: 0.1em 2em;
   border-left: 0.6em #d14e4e solid;
-  background-color: #f6f0f0;
+  background-color: #65737e;
 }
 html {
-  background: #f0f0f0;
-  color: #3c3c3c;
+  background: #2b303b;
+  color: #c0c5ce;
 }
 body {
   font: normal 100% "Noto Sans SC", Helvetica, Arial, sans-serif;
@@ -271,5 +271,4 @@ h5::before,
 h6::before {
   content: "#";
   margin-right: 0.5em;
-  color: #3c3c3c;
 }
