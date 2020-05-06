@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Charles Blog</title>
+  <title>Charles</title>
   
   <subtitle>竹篮打水一场空</subtitle>
   <link href="/atom.xml" rel="self"/>
