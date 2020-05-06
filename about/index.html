@@ -106,24 +106,26 @@
 </article>
 
   
-
-
 	<section id="comment" class="comment">
-		<div id="gitment"></div>
+		<div id="gitalk-container"></div>
 	</section>
-	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 	<script>
-		var gitment = new Gitment({
-			owner: 'XXJG',
+		var gitalk = new Gitalk({
+			clientID: 'df587b5dbfa55db411e3',
+			clientSecret: 'c588b95c9e817007ea5a3604b5db5056aac96ebf',
 			repo: 'xxjg.github.io',
-			oauth: {
-				client_id: 'df587b5dbfa55db411e3',
-				client_secret: 'c588b95c9e817007ea5a3604b5db5056aac96ebf',
-			},
+			owner: 'XXJG',
+			admin: [''],
+			id: location.pathname,
+			distractionFreeMode: false
 		})
-		gitment.render('gitment')
+
+		gitalk.render('gitalk-container')
 	</script>
+
+
 
 
 
