@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="程序员的诞生演员与程序员，两个看似不相干的职位，但是我认为有相似的地方。 演员口中的一句俗语：台上一分钟，台下十年功。演员这个职业是需要花很多时间去磨练的。看电视剧或者电影的时候，观察演员细微的表情、眼神或者肢体动作，这些细节能体现出一个演员的功底。为什么李雪健、冯远征等演员没有小鲜肉的颜(niang)值(pao)，但是能受到全演艺圈的尊重，与他们对于演员这个职业的尊重和热爱、坚持打磨不无关系。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="程序员的诞生">
+<meta property="og:url" content="https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/index.html">
+<meta property="og:site_name" content="Charles">
+<meta property="og:description" content="程序员的诞生演员与程序员，两个看似不相干的职位，但是我认为有相似的地方。 演员口中的一句俗语：台上一分钟，台下十年功。演员这个职业是需要花很多时间去磨练的。看电视剧或者电影的时候，观察演员细微的表情、眼神或者肢体动作，这些细节能体现出一个演员的功底。为什么李雪健、冯远征等演员没有小鲜肉的颜(niang)值(pao)，但是能受到全演艺圈的尊重，与他们对于演员这个职业的尊重和热爱、坚持打磨不无关系。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-05-07T11:20:00.000Z">
+<meta property="article:modified_time" content="2020-05-07T13:01:18.146Z">
+<meta property="article:author" content="Charles Xie">
+<meta property="article:tag" content="research">
+<meta name="twitter:card" content="summary">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon2.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+          
+        
+    
+    <!-- title -->
+    <title>程序员的诞生</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Charles" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories/">分类</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2020/05/06/%E5%85%B3%E4%BA%8E%E8%AF%BB%E5%8D%9A%E5%B0%8F%E6%83%B3%E6%B3%95/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/" target="_blank" rel="noopener"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&text=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&is_video=false&description=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=程序员的诞生&body=Check out this article: https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&name=程序员的诞生&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&t=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#程序员的诞生"><span class="toc-number">1.</span> <span class="toc-text">程序员的诞生</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        程序员的诞生
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Charles</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-05-07T11:20:00.000Z" itemprop="datePublished">2020-05-07</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/Life/">Life</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/research/" rel="tag">research</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="程序员的诞生"><a href="#程序员的诞生" class="headerlink" title="程序员的诞生"></a>程序员的诞生</h2><p><strong>演员与程序员，两个看似不相干的职位，但是我认为有相似的地方。</strong></p>
+<p>演员口中的一句俗语：<strong>台上一分钟，台下十年功</strong>。演员这个职业是需要花很多时间去磨练的。看电视剧或者电影的时候，观察演员细微的表情、眼神或者肢体动作，这些细节能体现出一个演员的功底。为什么李雪健、冯远征等演员没有小鲜肉的颜(niang)值(pao)，但是能受到全演艺圈的尊重，与他们对于演员这个职业的尊重和热爱、坚持打磨不无关系。</p>
+<p>演艺圈现在的状态人尽皆知，用一句不好听的话来说，<strong>什么阿猫阿狗都能当演员</strong>，他们的眼神里透露着浮躁，眼里也看不出他们对演员这个职业任何的尊重，演戏只是他们出名的工具，挣钱的方式。如果现在年轻人都以这些人为偶像而不是李雪健这种实力派演员为偶像的话，那么大众的品味与价值观又会倒退很多年。</p>
+<p>刚才提到了演员的修养，<strong>程序员其实也有修养</strong>。我其实不怎么喜欢程序员这个词，我更愿意别人称呼我们为工程师，因为我相信每一个工程师都是<strong>富有创造力</strong>的人。而我用了程序员，我认为现在IT行业的浮躁程度丝毫不亚于演艺圈和娱乐圈。</p>
+<ul>
+<li>不是去想着如何利用自己的力量把产品变得更好，而是去骂这个PM傻逼那个PM不懂技术。</li>
+<li>为了挣钱看到了程序员的恶心行为，毕竟恶心软件的行为都是人写的。</li>
+<li>不是去想如何让自己值更多的钱，而是去盲目追求更多的钱。</li>
+<li>总是追求看起来很牛逼的技术，却不肯花时间思考产品中的一个技术缺陷。</li>
+<li>总是想做高大上的系统，却连自己写的程序从编译到输出结果这中间发生了什么都不知道。</li>
+<li>总是抱怨自己的工作无聊，而不是想着如何从无聊中发掘更大的价值。抱怨最大的地方就是商机最多的地方，如果人人都抱怨钻木取火无聊，不会有后面的火折子、火炬、打火机、燃气灶，微波炉、电磁炉等产品。如果人人都抱怨打水无聊，不会有后面的水桶、水井、水龙头、饮水机、自来水公司。</li>
+</ul>
+<p>程序员，跟演员一样，需要沉下心，打磨自己的内功，剩下的都是顺水推舟的事情。我们需要认清自己职业的价值，尊重自己的职业，磨练自己的内功并创造自己的最大价值。</p>
+<p><strong>互勉。</strong></p>
+
+  </div>
+</article>
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+            clientID: '2fc267b711478fe55502',
+            clientSecret: '3ea58b21be97b50cd0abfc0a2c3f8e29a97a0aac',
+            id: md5(window.location.pathname),
+            repo: 'xxjg.github.io',
+            owner: 'XXJG',
+            admin: 'XXJG',
+            distractionFreeMode: ''
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories/">分类</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#程序员的诞生"><span class="toc-number">1.</span> <span class="toc-text">程序员的诞生</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&text=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&is_video=false&description=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=程序员的诞生&body=Check out this article: https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&title=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&name=程序员的诞生&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=https://github.com/XXJG/2020/05/07/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%AF%9E%E7%94%9F/&t=程序员的诞生" target="_blank" rel="noopener"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2020
+    Charles Xie
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories/">分类</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
